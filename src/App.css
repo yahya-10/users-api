@@ -8,9 +8,14 @@
 .container{
   margin: 20px;
 }
-
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .main-card {
-  background-color: #3498db;
+  background-color: #6facd4;
   -webkit-box-shadow: 5px 5px 0px 3px #FF820D; 
   box-shadow: 5px 5px 0px 3px #FF820D;
+  margin-bottom: 20px;
 }
